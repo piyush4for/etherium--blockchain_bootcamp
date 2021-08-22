@@ -1,0 +1,3 @@
+rather than compiling every time we changed conpile.js to run it one time and delete build directory 
+
+use call function from contract if function is set as view

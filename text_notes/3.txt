@@ -1,0 +1,10 @@
+msg is global variable that store data,gas,sender,value
+test.js is only used to check our contract function so that precious money can be verified
+
+data types : int ,uint(positive int),address and so on like array,struct. 
+	Error: nested dynamic array and array of string is not allowed.
+		can be used i n solidity but issue in communication between contract
+require() global boolean variable:if false function exits , if true run as usual 
+cant use console log we had to use debugger for errors
+keccak256() OR sho3() is a global function that convert into encryption 
+we use function modifier so that we dont have to repeat ourself

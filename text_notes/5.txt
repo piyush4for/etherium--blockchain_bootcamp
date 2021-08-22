@@ -1,0 +1,13 @@
+two global variable to remove error memory ,storage.Memory is like RAM make a copy of data and delete it after running while storage is HDD
+used every data structure in it like: mapping , struct , dynamic , fixed array. to lower gas cost
+
+deploying compaign with create comapaign button :
+	❌1.normal trust user to send and get contract wiith metamask
+	❌2.use our account and just confidentially show compaign from our account and afford all gas cost.
+	✔️3.we create a factory contract that has function to deploy new instance of contract/another contract😁
+
+
+just revision
+	require: if it is false then all thing below will kick out
+	receiveraddress.transfer(howMuchMoney): send money
+	

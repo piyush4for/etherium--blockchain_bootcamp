@@ -1,0 +1,6 @@
+our compiler create 2 thing ABI and bytecode: ABI act as interface and bytecode is deployed to network in contract
+
+we do not have to specify the account for calling function except for transaction 
+
+created a Factory contract to run another C contract for security purpose 
+	the factory hold address of deployed C contract 

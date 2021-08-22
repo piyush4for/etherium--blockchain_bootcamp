@@ -1,0 +1,15 @@
+secret recovery phrase/mnemonix : 
+	come slow super history large defense drift stone one fat escape good
+
+
+use remix.etherium.org
+1ether = 0.000001 wei(or 1 wei because we dont use decimal in wei so we can say some amount of wei)
+contract is a account with some code in it
+to deploy a contract we need to transaction(in theory updating blockchain data) 
+	in short change anything in blockchain -> submit a transaction
+transaction cost money , calling a  function dont
+mining is changing block to get data almost 15 second OR proof of work algorithm
+gas mean price of that server for doing operations.
+	we use gasLimit becoz if there is loop we dont know how mucch it gas it costs
+
+To memeorize credential of etherium we use Mnemonix 12 words that store all credential in BIP39 format
