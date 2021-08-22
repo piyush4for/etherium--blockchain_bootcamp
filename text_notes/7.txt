@@ -1,3 +1,17 @@
-rather than compiling every time we changed conpile.js to run it one time and delete build directory 
+we are using next.js that include react as wrapup and include many fucntionality multi-page application , routing,
+ server side rendering, hot moudle reload
+	
+next.js is used becoz:
+	1.nextjs make run web app much much faster as it first run on .next server then it shows output html in browser while react just 
+	output javascript on browser , browser parse it then show. So next js is so good for poor android internet
+	2.we would run etherium requests on .next server so user who dont have metamask can run our app too
 
-use call function from contract if function is set as view
+used loading button spinner and form error handling with catch in new.js 
+
+next routes to create dynamic url/routes [just type route={anyURL} in index,header any file .it will be created]
+	+routes.js also handle routes for urls
+
+server.js tell nextJS to use routes.js that handle dynamic url i.e(next-routes)
+
+
+wanna change solidity contract?  ans : change campaign.sol > node compile > node deploy > copy address and paste to factory.js
